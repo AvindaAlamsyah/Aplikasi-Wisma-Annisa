@@ -4,11 +4,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/logo1"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/splass">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
             android:name=".splash"
             android:noHistory="true"
@@ -23,6 +22,12 @@
         </activity>
         <activity
             android:name=".opsi"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".daftar"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
